@@ -6,7 +6,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/rpc-server/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-client/pom.xml" />
         <option value="$PROJECT_DIR$/netty-server/pom.xml" />
       </list>
