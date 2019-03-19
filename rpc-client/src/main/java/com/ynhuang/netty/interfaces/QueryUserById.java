@@ -1,5 +1,6 @@
 package com.ynhuang.netty.interfaces;
 
+import com.ynhuang.netty.annotation.MyRpcClient;
 import com.ynhuang.netty.bean.UserInfo;
 
 /**
@@ -7,7 +8,8 @@ import com.ynhuang.netty.bean.UserInfo;
  * @Date: 2018/11/29 15:58
  * @Description:
  */
+@MyRpcClient
 public interface QueryUserById {
 
-    UserInfo queryUserById(int id);
+    public UserInfo queryUserById(int id);
 }

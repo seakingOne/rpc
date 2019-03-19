@@ -7,7 +7,7 @@ import java.lang.annotation.*;
  * @Date: 2018/11/29 16:20
  * @Description:
  */
-@Target({ElementType.FIELD})
+@Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface MyRpcClient {

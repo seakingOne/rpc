@@ -21,7 +21,6 @@ import org.springframework.stereotype.Component;
  * @Description:
  */
 @Slf4j
-@Component
 public class NettyClient {
 
     private static class ClientInit{
@@ -37,6 +36,7 @@ public class NettyClient {
     private ChannelFuture future;
 
     public NettyClient(){
+
         mainGroup = new NioEventLoopGroup();
         bootstrap = new Bootstrap();
         bootstrap.group(mainGroup)
@@ -58,15 +58,12 @@ public class NettyClient {
         log.error("客户端启动成功......");
     }
 
-    public static void sendDtaToServer(int id){
-
-        Request request = new Request();
-        request.setClassName("com.ynhuang.netty.interfaces.impl.QueryUserByIdImpl");
-        Object[] params = new Object[]{id};
-        request.setParams(params);
-        request.setMethod("queryUserById");
-        ClientHandler.sendDataToServer(request);
-
-    }
+//    public static void sendDtaToServer(int id){
+//
+//        Request request = new Request();
+//
+//        ClientHandler.sendDataToServer(request);
+//
+//    }
 
 }

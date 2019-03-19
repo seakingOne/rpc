@@ -14,8 +14,10 @@ public class Request implements Serializable {
 
     private String className;
 
-    private String method;
+    private String methodName;
 
-    private Object[] params;
+    private Object[] parameters;
+
+    private Class<?>[] parameTypes;
 
 }

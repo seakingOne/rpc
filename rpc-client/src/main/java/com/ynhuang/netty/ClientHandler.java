@@ -1,6 +1,5 @@
 package com.ynhuang.netty;
 
-import com.ynhuang.netty.config.ClientConfig;
 import com.ynhuang.netty.domain.Request;
 import com.ynhuang.netty.domain.Response;
 import io.netty.channel.ChannelHandlerContext;
@@ -24,11 +23,11 @@ public class ClientHandler extends SimpleChannelInboundHandler implements Callab
     private static Map<String, ChannelHandlerContext> channelHandlerContextMap
             = new ConcurrentHashMap<String, ChannelHandlerContext>();
 
-    private Map<String, Object> rpcAnnnotClass = ClientConfig.getRpcAnnnotClass();
+    //private Map<String, Object> rpcAnnnotClass = ClientConfig.getRpcAnnnotClass();
 
     private Response result;
     private ChannelHandlerContext context;
-    private int id;
+    private Request request;
 
     // TODO: 2019/3/6 这里采用了同步的方式等待返回结果
     
@@ -46,18 +45,13 @@ public class ClientHandler extends SimpleChannelInboundHandler implements Callab
         context = ctx;
     }
 
-    public static void sendDataToServer(Request s) {
-        ChannelHandlerContext newCtx = channelHandlerContextMap.get("me");
-        newCtx.channel().writeAndFlush(s);
-    }
+//    public static void sendDataToServer(Request request) {
+//        ChannelHandlerContext newCtx = channelHandlerContextMap.get("me");
+//        newCtx.channel().writeAndFlush(request);
+//    }
 
     @Override
     public synchronized Response call() throws Exception {
-        Request request = new Request();
-        request.setClassName("com.ynhuang.netty.interfaces.impl.QueryUserByIdImpl");
-        Object[] params = new Object[]{id};
-        request.setParams(params);
-        request.setMethod("queryUserById");
         context.writeAndFlush(request);
         wait();
         return result;
