@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author sinjinsong
- * @date 2018/3/10
+ * @author ynhuang
+ * @date 2019/4/11
  */
 @Configuration
 @EnableConfigurationProperties(RPCServerProperties.class)
