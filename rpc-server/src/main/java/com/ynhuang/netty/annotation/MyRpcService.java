@@ -1,7 +1,5 @@
 package com.ynhuang.netty.annotation;
 
-import org.springframework.stereotype.Component;
-
 import java.lang.annotation.*;
 
 /**
