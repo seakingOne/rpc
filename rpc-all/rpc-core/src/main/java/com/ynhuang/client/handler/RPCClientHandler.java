@@ -16,7 +16,7 @@ import static com.ynhuang.domain.Message.PONG;
 import static com.ynhuang.domain.Message.RESPONSE;
 
 /**
- * Created by ynhuang on 2017/7/31.
+ * Created by ynhuang on 2019/4/11.
  */
 @Slf4j
 @AllArgsConstructor

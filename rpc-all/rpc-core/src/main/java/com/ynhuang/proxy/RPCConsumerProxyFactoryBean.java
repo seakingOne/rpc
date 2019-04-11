@@ -1,10 +1,5 @@
 package com.ynhuang.proxy;
 
-/**
- * @author synhuang
- * @date 2018/3/11
- */
-
 import com.ynhuang.client.RPCClient;
 import com.ynhuang.domain.RPCRequest;
 import com.ynhuang.domain.RPCResponse;
@@ -19,11 +14,11 @@ import java.lang.reflect.Proxy;
 import java.util.UUID;
 
 /**
- * @author synhuang
- * @date 2018/3/10
+ * @author ynhuang
  */
 @Slf4j
 public class RPCConsumerProxyFactoryBean implements FactoryBean<Object>, InitializingBean {
+
     private RPCClient client;
     private Class<?> interfaceClass;
     private Object proxy;

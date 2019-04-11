@@ -24,8 +24,8 @@ import java.util.Set;
 
 
 /**
- * @author synhuang
- * @date 2018/3/10
+ * @author ynhuang
+ * @date 2019/4/11
  * <p>
  * BeanDefinitionRegistryPostProcessor继承自BeanFactoryPostProcessor，
  * 是一种比较特殊的BeanFactoryPostProcessor。BeanDefinitionRegistryPostProcessor中定义的

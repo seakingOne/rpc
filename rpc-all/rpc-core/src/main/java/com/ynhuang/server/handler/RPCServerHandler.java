@@ -15,7 +15,7 @@ import static com.ynhuang.domain.Message.PING;
 import static com.ynhuang.domain.Message.REQUEST;
 
 /**
- * Created by ynhuang on 2017/7/29.
+ * Created by ynhuang on 2019/4/11.
  * 实际的业务处理器，单例
  */
 @Slf4j
