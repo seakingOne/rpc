@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ynhuang.RPCClientProperties",
+      "name": "rpc",
+      "type": "com.ynhuang.RPCClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ynhuang.RPCClientProperties",
+      "name": "rpc.load-balance-strategy",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ynhuang.RPCClientProperties",
+      "name": "rpc.registry-address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ynhuang.RPCClientProperties",
+      "name": "rpc.service-base-package",
+      "type": "java.lang.String"
+    }
+  ]
+}

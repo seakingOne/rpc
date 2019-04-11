@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ynhuang.RPCServerProperties",
+      "name": "rpc",
+      "type": "com.ynhuang.RPCServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ynhuang.RPCServerProperties",
+      "name": "rpc.registry-address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ynhuang.RPCServerProperties",
+      "name": "rpc.service-base-package",
+      "type": "java.lang.String"
+    }
+  ]
+}

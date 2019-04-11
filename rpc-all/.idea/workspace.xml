@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba168e80-f309-4a18-a2f6-86f260db4666" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/rpc-core/target/" />
+    <ignored path="$PROJECT_DIR$/simple/simple-server/target/" />
+    <ignored path="$PROJECT_DIR$/simple/simple-client/target/" />
+    <ignored path="$PROJECT_DIR$/simple/simple-api/target/" />
+    <ignored path="$PROJECT_DIR$/simple/target/" />
+    <ignored path="$PROJECT_DIR$/simple-test/target/" />
+    <ignored path="$PROJECT_DIR$/simple-test/simple-api/target/" />
+    <ignored path="$PROJECT_DIR$/simple-test/simple-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-test/target/" />
+    <ignored path="$PROJECT_DIR$/spring-api/target/" />
+    <ignored path="$PROJECT_DIR$/spring-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-client/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-client-starter/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-server-starter/target/" />
+    <ignored path="$PROJECT_DIR$/distributed-rpc-client-spring-boot-starter/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1644378931">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="15" />
+          <entry key="factories" value="3" />
+          <entry key="java" value="214" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="15" />
+          <entry key="JAVA" value="214" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="46" />
+          <entry key="spring.factories" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="factories" value="23" />
+          <entry key="java" value="888" />
+          <entry key="properties" value="65" />
+          <entry key="xml" value="196" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="888" />
+          <entry key="Properties" value="65" />
+          <entry key="XML" value="196" />
+          <entry key="spring.factories" value="23" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/RPCClientAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-client/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/RPCClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ServiceDiscovery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RPCClientHandler</find>
+      <find>LENGTH_FIELD_LENGTH</find>
+      <find>PING</find>
+      <find>serviceBasePackage</find>
+      <find>正在添加动态代理类的FactoryBean</find>
+      <find>服务器启动</find>
+      <find>RPCService</find>
+      <find>@author</find>
+      <find>@author sinjinsong</find>
+      <find>sinjinsong</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>@author ynhuang</replace>
+      <replace>@author synhuang</replace>
+      <replace>ynhuang</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/rpc/SpringBoot-Practice" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/code/SocketDemo-L5-TCP" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/simple-test/simple-api/src/main/java/com/ynhuang/domain/User.java" />
+        <option value="$PROJECT_DIR$/simple-test/simple-api/src/main/java/com/ynhuang/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/simple-test/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zookeeper/ServiceDiscovery.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zookeeper/ServiceRegistry.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zookeeper/ZookeeperClient.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/Worker.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServerHandler.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/RPCClientHandler.java" />
+        <option value="$PROJECT_DIR$/spring-api/src/main/java/com/ynhuang/springapi/domain/User.java" />
+        <option value="$PROJECT_DIR$/spring-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-api/src/main/java/com/ynhuang/springapi/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/spring-server/src/main/java/com/ynhuang/springserver/impl/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCProxyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCProxyFactoryBeanRegistry.java" />
+        <option value="$PROJECT_DIR$/spring-client/src/main/java/com/ynhuang/springclient/SpringClientApplication.java" />
+        <option value="$PROJECT_DIR$/spring-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/domain/RPCResponseFuture.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/handler/RPCClientHandler.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/impl/LeastActiveLoadBalancer.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/impl/RandomLoadBalancer.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/impl/RoundRobinLoadBalancer.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/LoadBalancer.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/impl/ConsistentHashLoadBalancer.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCConsumerProxyFactoryBeanRegistry.java" />
+        <option value="$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/springbootclientstarter/RPCClientAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/springbootclientstarter/RPCClientProperties.java" />
+        <option value="$PROJECT_DIR$/springboot-client-starter/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ZookeeperClient.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ServiceRegistry.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/coder/RPCEncoder.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/coder/RPCDecoder.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCConsumerProxyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServer.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java" />
+        <option value="$PROJECT_DIR$/distributed-rpc-client-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-client-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/RPCClientProperties.java" />
+        <option value="$PROJECT_DIR$/spring-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-client-starter/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/spring-client/src/main/java/com/ynhuang/springclient/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/RPCClient.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ServiceDiscovery.java" />
+        <option value="$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/RPCClientAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/springboot-server-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-server-starter/src/main/resources/META-INF/spring.factories" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="319" />
+    <option name="width" value="1138" />
+    <option name="height" value="841" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springserver" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-client-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-client-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-client-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-client-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-client-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ynhuang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-server-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-server-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-server-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-server-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-server-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ynhuang" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554982573500" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/distributed-rpc-client-spring-boot-starter/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\svn\rpc\git_rpc\rpc-all\simple\simple-api\src\main" />
+      <recent name="D:\svn\rpc\git_rpc\rpc-all\simple\simple-api\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ynhuang.springserver.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\svn\rpc\git_rpc\rpc-all\springboot-server-starter\src\main\resources" />
+      <recent name="D:\svn\rpc\git_rpc\rpc-all\springboot-server-starter\src\main\java\com\ynhuang" />
+      <recent name="D:\svn\rpc\git_rpc\rpc-all\springboot-client-starter\src\main\resources" />
+      <recent name="D:\svn\rpc\git_rpc\rpc-all\springboot-client-starter\src\main\java\com\ynhuang" />
+      <recent name="D:\svn\rpc\git_rpc\rpc-all" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringClientApplication">
+    <configuration name="SpringApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springapi.SpringApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springclient.SpringClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springserver.SpringServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springtest.SpringTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootClientStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-client-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springbootclientstarter.SpringbootClientStarterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootServerStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-server-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springbootserverstarter.SpringbootServerStarterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringTestApplication" />
+      <item itemvalue="Spring Boot.SpringApiApplication" />
+      <item itemvalue="Spring Boot.SpringServerApplication" />
+      <item itemvalue="Spring Boot.SpringClientApplication" />
+      <item itemvalue="Spring Boot.SpringbootClientStarterApplication" />
+      <item itemvalue="Spring Boot.SpringbootServerStarterApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba168e80-f309-4a18-a2f6-86f260db4666" name="Default Changelist" comment="" />
+      <created>1554963292715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554963292715</updated>
+      <workItem from="1554963299017" duration="8352000" />
+      <workItem from="1554971803271" duration="6173000" />
+      <workItem from="1554980872535" duration="1637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16162000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23240939" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5763814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.503792" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/springbootclientstarter/RPCClientAutoConfiguration.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-client/src/main/java/com/ynhuang/springclient/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCProxyFactoryBeanRegistry.java" />
+    <entry file="file://$PROJECT_DIR$/spring-server/src/main/java/com/ynhuang/springserver/impl/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCProxyFactoryBean.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/test/java/com/ynhuang/springbootclientstarter/SpringbootClientStarterApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/enumeration/ConnectionFailureStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/domain/RPCRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/domain/RPCResponseFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/annotation/RPCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/annotation/RPCReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/handler/RPCClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/impl/ConsistentHashLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/impl/LeastActiveLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCConsumerProxyFactoryBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ServiceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/coder/RPCEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/coder/RPCDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="33" column="88" lean-forward="true" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCConsumerProxyFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="120" column="43" lean-forward="true" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-client/src/main/java/com/ynhuang/springclient/SpringClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distributed-rpc-client-spring-boot-starter/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/distributed-rpc-client-spring-boot-starter/src/main/java/com/sinjinsong/rpc/autoconfig/client/RPCClientProperties.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/springbootclientstarter/RPCClientProperties.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/springbootclientstarter/RPCClientAutoConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/spring-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-client-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/RPCClientProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-client/src/main/java/com/ynhuang/springclient/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/constant/ZookeeperConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.8/zookeeper-3.4.8.jar!/org/apache/zookeeper/Watcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/LoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/impl/RandomLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ZookeeperClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/lb/impl/RoundRobinLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-server-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/RPCClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/RPCClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rpc-all</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.rholder:guava-retrying:2.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
