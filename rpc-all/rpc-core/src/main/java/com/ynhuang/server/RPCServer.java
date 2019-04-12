@@ -72,13 +72,23 @@ public class RPCServer implements ApplicationContextAware {
                             // 在InboundHandler执行完成需要调用Outbound的时候，比如ChannelHandlerContext.write()方法，
                             // Netty是直接从该InboundHandler返回逆序的查找该InboundHandler之前的OutboundHandler，并非从Pipeline的最后一项Handler开始查找
                             ch.pipeline()
+                                    //心跳检测
                                     .addLast("IdleStateHandler", new IdleStateHandler(10, 0, 0))
-                                    // ByteBuf -> Message 
+                                    //自定义的消息长度，用于解决tcp粘包问题，分为消息头部和消息体，其中消息头部占用4个字节
                                     .addLast("LengthFieldPrepender", new LengthFieldPrepender(LENGTH_FIELD_LENGTH, LENGTH_ADJUSTMENT))
                                     // Message -> ByteBuf
                                     .addLast("RPCEncoder", new RPCEncoder())
-                                    // ByteBuf -> Message
-                                    .addLast("LengthFieldBasedFrameDecoder", new LengthFieldBasedFrameDecoder(MAX_FRAME_LENGTH, LENGTH_FIELD_OFFSET, LENGTH_FIELD_LENGTH, LENGTH_ADJUSTMENT, INITIAL_BYTES_TO_STRIP))
+                                    //maxFrameLength  帧的最大长度
+                                    //lengthFieldOffset length字段偏移的地址
+                                    //lengthFieldLength length字段所占的字节长
+                                    //lengthAdjustment 修改帧数据长度字段中定义的值，
+                                    //可以为负数 因为有时候我们习惯把头部记入长度,若为负数,则说明要推后多少个字段
+                                    //initialBytesToStrip 解析时候跳过多少个长度
+                                    .addLast("LengthFieldBasedFrameDecoder", new LengthFieldBasedFrameDecoder(MAX_FRAME_LENGTH,
+                                                                                                              LENGTH_FIELD_OFFSET,
+                                                                                                              LENGTH_FIELD_LENGTH,
+                                                                                                              LENGTH_ADJUSTMENT, 
+                                                                                                              INITIAL_BYTES_TO_STRIP))
                                     // Message -> Message
                                     .addLast("RPCDecoder", new RPCDecoder())
                                     .addLast("RPCServerHandler", new RPCServerHandler(handlerMap));
