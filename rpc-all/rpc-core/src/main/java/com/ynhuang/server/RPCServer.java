@@ -45,9 +45,11 @@ public class RPCServer implements ApplicationContextAware {
     private ApplicationContext applicationContext;
     
 
-    public RPCServer(String serviceBasePackage, ServiceRegistry registry) {
+    public RPCServer(String serviceBasePackage, ServiceRegistry registry, ApplicationContext applicationContext) {
         this.serviceBasePackage = serviceBasePackage;
         this.registry = registry;
+        this.applicationContext = applicationContext;
+
     }
 
     public void run(String serverAddress) {
