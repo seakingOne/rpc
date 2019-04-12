@@ -41,6 +41,7 @@ import java.util.Set;
  */
 @Slf4j
 public class RPCConsumerProxyFactoryBeanRegistry implements BeanDefinitionRegistryPostProcessor {
+
     private String basePackage;
     private RPCClient client;
 

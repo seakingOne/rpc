@@ -35,9 +35,13 @@ import static com.ynhuang.constant.FrameConstant.*;
  */
 @Slf4j
 public class RPCServer implements ApplicationContextAware {
+
     private Map<String, Object> handlerMap = new HashMap<>();
+
     private ServiceRegistry registry;
+
     private String serviceBasePackage;
+
     private ApplicationContext applicationContext;
     
 

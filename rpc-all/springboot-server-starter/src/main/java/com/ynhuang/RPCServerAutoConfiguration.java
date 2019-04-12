@@ -25,10 +25,16 @@ public class RPCServerAutoConfiguration {
 
     @Bean
     public RPCServer rpcServer() {
+
         log.info("开始初始化RPCServer");
+
         log.info("配置文件读取结果:{}",properties);
+
         ServiceRegistry registry = new ServiceRegistry(properties.getRegistryAddress());
-        return new RPCServer(properties.getServiceBasePackage(),  registry);
+
+        RPCServer rpcServer = new RPCServer(properties.getServiceBasePackage(), registry);
+
+        return rpcServer;
     }
     
 }

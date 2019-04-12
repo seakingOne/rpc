@@ -10,12 +10,20 @@
   "properties": [
     {
       "sourceType": "com.ynhuang.RPCServerProperties",
+      "name": "rpc.export-address",
+      "description": "服务暴露地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ynhuang.RPCServerProperties",
       "name": "rpc.registry-address",
+      "description": "zk注册地址",
       "type": "java.lang.String"
     },
     {
       "sourceType": "com.ynhuang.RPCServerProperties",
       "name": "rpc.service-base-package",
+      "description": "service的包路径",
       "type": "java.lang.String"
     }
   ]

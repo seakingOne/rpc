@@ -11,8 +11,11 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 public class RPCServerProperties {
 
-    /** 注册地址 **/
+    /** zk注册地址 **/
     private String registryAddress;
+
+    /** 服务暴露地址 **/
+    private String exportAddress;
 
     /** service的包路径 **/
     private String serviceBasePackage;
