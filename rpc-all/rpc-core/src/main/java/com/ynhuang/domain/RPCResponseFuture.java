@@ -1,38 +1,69 @@
 package com.ynhuang.domain;
 
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
- * 响应凭证
+ * @author ynhuang
  *
- * @author prestigeding@126.com
+ * @date 2019-4-12
+ *
+ * @desc 同步返回结果
  */
 public class RPCResponseFuture {
 
     private RPCResponse response;
 
+    //lock锁
+    private final ReentrantLock reentrantLock = new ReentrantLock();
+    //条件变量
+    private final Condition condition = reentrantLock.newCondition();
+
+    /**
+     * 判断结果是否为空
+     * @return
+     */
+    public boolean isDone(){
+        return response != null;
+    }
+
+    /**
+     * 获取结果
+     * @return
+     */
     public RPCResponse getResponse() {
-        if (response != null) {
-            return response;
-        }
-        /**
-         * 使用本身的对象锁即可
-         */
-        synchronized (this) {
-            if (response != null) {
-                return response;
+
+        reentrantLock.lock();
+
+        try {
+
+            while (!isDone()) {
+                condition.await();
+                if(isDone()){
+                    //获取到结果 直接终止循环
+                    break;
+                }
             }
-            try {
-                this.wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            reentrantLock.unlock();
         }
+
         return response;
     }
 
     public void setResponse(RPCResponse result) {
-        this.response = result;
-        synchronized (this) {
-            this.notifyAll();
+
+        reentrantLock.lock();
+
+        try {
+            response = result;
+            condition.signalAll();
+        }finally {
+            reentrantLock.unlock();
         }
+
     }
 }

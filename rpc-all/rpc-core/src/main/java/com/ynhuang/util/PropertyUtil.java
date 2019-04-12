@@ -8,12 +8,13 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * @author synhuang
+ * @author ynhuang
  * @date 2018/3/10
  */
 @Slf4j
 public class PropertyUtil {
-     private static Properties props;
+
+    private static Properties props;
 
     static {
         loadProps();

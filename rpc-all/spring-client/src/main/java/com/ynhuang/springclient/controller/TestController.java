@@ -20,15 +20,10 @@ public class TestController {
 
     @GetMapping(value = "/zk1")
     public String test() throws Exception {
-        System.out.println(helloService.hello(new User("1")));
-        System.out.println(helloService.hello(new User("2")));
 
-        Thread.sleep(3000);
-        System.out.println(helloService.hello(new User("3")));
-        Thread.sleep(8000);
-        System.out.println(helloService.hello(new User("4")));
+        String hello = helloService.hello(new User("1"));
 
-        return "";
+        return hello;
     }
 
 }
