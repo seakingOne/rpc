@@ -10,10 +10,13 @@ import java.lang.reflect.Method;
 import java.util.Map;
 
 /**
- * Created by ynhuang on 2019/4/11.
+ * @author ynhuang
+ * @desc 单独开启一个线程执行server的方法
+ *
  */
 @Slf4j
 public class Worker implements Runnable {
+
     private ChannelHandlerContext ctx;
     private RPCRequest request;
     private Map<String, Object> handlerMap;

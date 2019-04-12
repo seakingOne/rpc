@@ -20,13 +20,21 @@ import static com.ynhuang.domain.Message.REQUEST;
  */
 @Slf4j
 public class RPCServerHandler extends SimpleChannelInboundHandler<Message> {
+
     private Map<String, Object> handlerMap;
+
+    //自定义线程池
     private ThreadPoolExecutor pool;
     
-    public RPCServerHandler( Map<String, Object> handlerMap) {
+    public RPCServerHandler(Map<String, Object> handlerMap) {
         this.handlerMap = handlerMap;
         int threads = Runtime.getRuntime().availableProcessors();
-        this.pool = new ThreadPoolExecutor(threads, threads, 6L, TimeUnit.SECONDS, new ArrayBlockingQueue<>(100), new ThreadPoolExecutor.CallerRunsPolicy());
+        this.pool = new ThreadPoolExecutor( threads,
+                                            threads,
+                                6L,
+                                            TimeUnit.SECONDS,
+                                            new ArrayBlockingQueue<>(100),
+                                            new ThreadPoolExecutor.CallerRunsPolicy());
         log.info("{}",handlerMap);
     }
 
@@ -37,10 +45,14 @@ public class RPCServerHandler extends SimpleChannelInboundHandler<Message> {
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Message message) throws Exception {
+
         log.info("服务器已接收请求 {}，请求类型 {}", message, message.getType());
+
         if (message.getType() == PING) {
+
             log.info("收到客户端PING心跳请求，发送PONG心跳响应");
             ctx.writeAndFlush(Message.PONG_MSG);
+
         } else if (message.getType() == REQUEST) {
             pool.submit(new Worker(ctx, message.getRequest(), handlerMap));
         }

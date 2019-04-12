@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba168e80-f309-4a18-a2f6-86f260db4666" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCConsumerProxyFactoryBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/proxy/RPCConsumerProxyFactoryBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/proxy/RPCConsumerProxyFactoryBean$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/proxy/RPCConsumerProxyFactoryBean$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/proxy/RPCConsumerProxyFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/proxy/RPCConsumerProxyFactoryBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/proxy/RPCConsumerProxyFactoryBeanRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/proxy/RPCConsumerProxyFactoryBeanRegistry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/server/RPCServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/server/RPCServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/server/RPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/server/RPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-server/src/main/java/com/ynhuang/springserver/SpringServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-server/src/main/java/com/ynhuang/springserver/SpringServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-server-starter/target/classes/com/ynhuang/RPCServerAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-server-starter/target/classes/com/ynhuang/RPCServerAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/server/handler/RPCServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/server/handler/RPCServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/server/handler/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/target/classes/com/ynhuang/server/handler/Worker.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,23 +125,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="15" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="443" />
+          <entry key="java" value="597" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="443" />
+          <entry key="JAVA" value="597" />
         </counts>
       </usages-collector>
     </session>
@@ -155,19 +149,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="304">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-server/src/main/java/com/ynhuang/springserver/SpringServerApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+            <state relative-caret-position="214">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -175,8 +169,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="50" />
+            <state relative-caret-position="394">
+              <caret line="153" column="49" selection-start-line="153" selection-start-column="40" selection-end-line="153" selection-end-column="49" />
+              <folding>
+                <element signature="e#2431#4889#0" expanded="true" />
+                <element signature="e#4888#4889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-394">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -204,6 +220,7 @@
       <find>@author sinjinsong</find>
       <find>sinjinsong</find>
       <find>超过规定时间服务器仍未收到客户端的心跳或正常信息，关闭连接</find>
+      <find>最终handlerMap为</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -226,7 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zookeeper/ServiceDiscovery.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zookeeper/ServiceRegistry.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zookeeper/ZookeeperClient.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/Worker.java" />
@@ -262,8 +278,6 @@
         <option value="$PROJECT_DIR$/springboot-server-starter/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ServiceRegistry.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ZookeeperClient.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java" />
-        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/zk/ServiceDiscovery.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/handler/RPCClientHandler.java" />
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/RPCClient.java" />
@@ -277,6 +291,9 @@
         <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServer.java" />
         <option value="$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-server/src/main/java/com/ynhuang/springserver/SpringServerApplication.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/Main.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java" />
+        <option value="$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java" />
       </list>
     </option>
   </component>
@@ -347,6 +364,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ynhuang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc-all" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ynhuang" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rpc-all" type="b2602c69:ProjectViewProjectNode" />
@@ -487,7 +514,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555058041381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555059584214" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rpc_git/toy-rpc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -523,7 +550,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringClientApplication">
+  <component name="RunManager" selected="Spring Boot.SpringApiApplication">
     <configuration name="SpringApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springapi.SpringApiApplication" />
@@ -545,34 +572,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-test" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springtest.SpringTestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootClientStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-client-starter" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springbootclientstarter.SpringbootClientStarterApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootServerStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-server-starter" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ynhuang.springbootserverstarter.SpringbootServerStarterApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.SpringTestApplication" />
       <item itemvalue="Spring Boot.SpringApiApplication" />
       <item itemvalue="Spring Boot.SpringServerApplication" />
       <item itemvalue="Spring Boot.SpringClientApplication" />
-      <item itemvalue="Spring Boot.SpringbootClientStarterApplication" />
-      <item itemvalue="Spring Boot.SpringbootServerStarterApplication" />
     </list>
   </component>
   <component name="SpringBootOptions">
@@ -594,18 +597,17 @@
       <workItem from="1554988597645" duration="1218000" />
       <workItem from="1554991236969" duration="261000" />
       <workItem from="1555050671432" duration="3690000" />
-      <workItem from="1555057563595" duration="477000" />
+      <workItem from="1555057563595" duration="2192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21808000" />
+    <option name="totallyTimeSpent" value="23523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -616,12 +618,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39262474" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28091106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.5021692" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -694,23 +696,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/coder/RPCEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/coder/RPCDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="88" lean-forward="true" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed-rpc-client-spring-boot-starter/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/distributed-rpc-client-spring-boot-starter/src/main/java/com/sinjinsong/rpc/autoconfig/client/RPCClientProperties.java" />
     <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/springbootclientstarter/RPCClientProperties.java" />
     <entry file="file://$PROJECT_DIR$/springboot-client-starter/src/main/java/com/ynhuang/springbootclientstarter/RPCClientAutoConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/spring-client/pom.xml">
@@ -837,20 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/client/handler/RPCClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -869,13 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -999,24 +963,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServer.java">
+    <entry file="file://$PROJECT_DIR$/spring-server/src/main/java/com/ynhuang/springserver/SpringServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="50" />
+        <state relative-caret-position="228">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-server-starter/src/main/java/com/ynhuang/RPCServerAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="214">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-server/src/main/java/com/ynhuang/springserver/SpringServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/domain/RPCRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/domain/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/RPCServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="153" column="49" selection-start-line="153" selection-start-column="40" selection-end-line="153" selection-end-column="49" />
+          <folding>
+            <element signature="e#2431#4889#0" expanded="true" />
+            <element signature="e#4888#4889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="2026" column="35" lean-forward="true" selection-start-line="2026" selection-start-column="35" selection-end-line="2026" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-core/src/main/java/com/ynhuang/server/handler/RPCServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
